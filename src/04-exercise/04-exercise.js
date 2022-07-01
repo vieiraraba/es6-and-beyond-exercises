@@ -17,7 +17,11 @@
  */
 
 // Finish the code of the function
-function exercise04() {}
+function exercise04([a,b,c,d,e]) {
+    return b;
+}
+
+exercise04(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"])
 
 // Don’t change the code bellow this line
 import setup04Exercise from "./04-exercise-setup";
