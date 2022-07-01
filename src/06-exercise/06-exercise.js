@@ -26,7 +26,12 @@ function exercise06() {
         company: "Assembler School",
         averageGrade: 6.6,
     };
+
+    const {firstName, lastName, ...rest} = user;
+    return rest;
 }
+
+exercise06();
 
 // Don’t change the code bellow this line
 import setup06Exercise from "./06-exercise-setup";
